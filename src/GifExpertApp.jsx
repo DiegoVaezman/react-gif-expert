@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AddCategory, GifGrid } from './components';
 
 export const GifExpertApp = () => {
-    const [categories, setCategories] = useState(['One punch']);
+    const [categories, setCategories] = useState(['Universe']);
 
     const onAddCategory = (newCat) => {
         if (categories.includes(newCat)) return;
